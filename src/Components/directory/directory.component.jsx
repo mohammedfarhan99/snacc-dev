@@ -9,11 +9,13 @@ import "./directory.styles.scss";
 class Directory extends React.Component {
   initialState = {
     sections: [
+      // This is the list of initial sections we plan to support as this list grows it needs to be
+      //put in a new file
       {
         title: "Dairy Ice Cream",
         imageUrl:
           "https://mlpupix9f17o.i.optimole.com/wsEp57E-_Odz7vkC/w:1000/h:625/q:90/https://www.homestratosphere.com/wp-content/uploads/2020/05/Dairy-Ice-Cream-2-25-3-min.jpg",
-        id: 1,
+        id: 1, 
         linkUrl: "shop/dairyicecream",
       },
       {
